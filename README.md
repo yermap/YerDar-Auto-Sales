@@ -543,7 +543,7 @@
 
     <div class="row">
 
-        <iframe class="map" src="https://www.google.kz/maps/place/%D0%9B%D0%B5%D0%BA%D1%81%D1%83%D1%81+%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B/@43.2150825,76.9246292,17.44z/data=!4m11!1m5!8m4!1e2!2s113056317276134857672!3m1!1e1!3m4!1s0x38836f36a2ed23d1:0xb5f351f1d0d8674b!8m2!3d43.2143542!4d76.92416" allowfullscreen="" loading="lazy"></iframe>
+        <iframe class="map" src="https://www.google.kz/maps/place/%D0%9B%D0%B5%D0%BA%D1%81%D1%83%D1%81+%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B/@43.2151389,76.9246423,16.9z/data=!4m11!1m5!8m4!1e2!2s113056317276134857672!3m1!1e1!3m4!1s0x38836f36a2ed23d1:0xb5f351f1d0d8674b!8m2!3d43.2143542!4d76.92416" allowfullscreen="" loading="lazy"></iframe>
 
         <form action="">
             <h3>get in touch</h3>
