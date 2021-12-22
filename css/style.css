@@ -71,7 +71,7 @@ section{
 }
 
 .header{
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: space-between;
     position: fixed;
@@ -197,7 +197,6 @@ section{
     color:var(--black);
     cursor: pointer;
 }
-
 .home{
     padding-top: 10rem;
     text-align: center;
