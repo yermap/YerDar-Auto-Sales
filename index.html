@@ -20,7 +20,7 @@
 
     <div id="menu-btn" class="fas fa-bars"></div>
 
-    <a href="#" class="logo"> <span>yer</span>Dar </a>
+    <a href="index.html" class="logo"> <span>yer</span>Dar </a>
 
     <nav class="navbar">
         <a href="#home">home</a>
@@ -126,6 +126,18 @@
                     </p>
                     <a href="#" class="btn">check out</a>
                 </div>
+                <script>
+                    let content = document.querySelector('#car-btn');
+
+content.onclick = () =>{
+  content.classList.toggle('active');
+}
+
+document.querySelector('#car-btn').onclick = () =>{
+  document.querySelector('.car-form-container').classList.toggle('active');
+}
+
+                </script>
             </div>
 
             <div class="swiper-slide box">
@@ -226,43 +238,50 @@
             <i class="fas fa-car"></i>
             <h3>car selling</h3>
             <p>Hot offers for the sale of cars in Kazakhstan</p>
-            <a href="#" class="btn"> read more</a>
+            
+            <a class="btn" onclick="newPageService1()"> read more</a>
         </div>
+        <script>
+            function newPageService1() {
+                window.location.href="1carSell.html";
+            }
+        </script>
 
         <div class="box">
             <i class="fas fa-tools"></i>
             <h3>parts repair</h3>
             <p>Our service center will repair your cars very high quality</p>
-            <a href="#" class="btn"> read more</a>
+            <a class="btn" onclick="newPageService2()"> read more</a>
         </div>
-
-        <!-- <div class="box">
-            <i class="fas fa-car-crash"></i>
-            <h3>car insurance</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
-            <a href="#" class="btn"> read more</a>
-        </div> -->
+        <script>
+            function newPageService2() {
+                window.location.href="1partsRepair.html";
+            }
+        </script>
 
         <div class="box">
             <i class="fas fa-car-battery"></i>
             <h3>battery replacement</h3>
             <p>The YerDar battery center network provides warranty service, as well as affordable and qualified service for starter rechargeable battery packs in Kazakhstan.</p>
-            <a href="#" class="btn"> read more</a>
+            <a class="btn" onclick="newPageService3()"> read more</a>
         </div>
+        <script>
+            function newPageService3() {
+                window.location.href="1batteryReplacement.html";
+            }
+        </script>
 
         <div class="box">
             <i class="fas fa-gas-pump"></i>
             <h3>oil change</h3>
             <p>FREE DIAGNOSTICS OF ALL SPECIAL FLUIDS ON YOUR CAR</p>
-            <a href="#" class="btn"> read more</a>
+            <a class="btn" onclick="newPageService4()"> read more</a>
         </div>
-
-        <!-- <div class="box">
-            <i class="fas fa-headset"></i>
-            <h3>24/7 support</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis, nisi.</p>
-            <a href="#" class="btn"> read more</a>
-        </div> -->
+        <script>
+            function newPageService4() {
+                window.location.href="1oilChange.html";
+            }
+        </script>
 
     </div>
 
@@ -546,8 +565,7 @@
 
     <div class="row">
 
-        <iframe class="map" src="https://www.google.kz/maps/place/%D0%9B%D0%B5%D0%BA%D1%81%D1%83%D1%81+%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B/@43.2150825,76.9246292,17.44z/data=!4m11!1m5!8m4!1e2!2s113056317276134857672!3m1!1e1!3m4!1s0x38836f36a2ed23d1:0xb5f351f1d0d8674b!8m2!3d43.2143542!4d76.92416" allowfullscreen="" loading="lazy"></iframe>
-
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2907.753825523129!2d76.9227739746194!3d43.21465244880694!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836f36a2ed23d1%3A0xb5f351f1d0d8674b!2z0JvQtdC60YHRg9GBINCQ0LvQvNCw0YLRiw!5e0!3m2!1sru!2skz!4v1640162180433!5m2!1sru!2skz" allowfullscreen="" loading="lazy"></iframe>
         <form action="">
             <h3>get in touch</h3>
             <input type="text" placeholder="your name" class="box">
