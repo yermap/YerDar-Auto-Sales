@@ -10,8 +10,6 @@
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
@@ -1464,8 +1462,6 @@ var swiper = new Swiper(".review-slider", {
 
 
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-
-<script src="js/script.js"></script>
 
 </body>
 </html>
