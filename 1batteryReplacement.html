@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
     <link rel="stylesheet" href="css/style3.css">
 
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
@@ -14,6 +14,7 @@
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
+    <title>Battery Replacement</title>
 
 </head>
 <body>
@@ -21,7 +22,7 @@
 
         <div id="menu-btn" class="fas fa-bars"></div>
     
-        <a href="#" class="logo"> <span>Yer</span>Dar </a>
+        <a href="index.html" class="logo"> <span>Yer</span>Dar </a>
     
         <nav class="navbar">
             <a href="#home">home</a>
@@ -306,7 +307,7 @@
             <h3>our branches</h3>
             <a href="#"> <i class="fas fa-map-marker-alt"></i> russia </a>
             <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> usbekistan </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Kazakhstan </a>
             <a href="#"> <i class="fas fa-map-marker-alt"></i> China </a>
             <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
         </div>
@@ -335,71 +336,6 @@
 </section>
 
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
-
-:root{
-    --yellow:#f9d806;
-    --light-yellow:#ffee80;
-    --black:#130f40;
-    --light-color:#666;
-    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
-    --border:.1rem solid rgba(0,0,0,.1);
-}
-
-*{
-    font-family: 'Poppins', sans-serif;
-    margin:0; padding:0;
-    box-sizing: border-box;
-    outline: none; border:none;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: .2s linear;
-}
-
-html{
-    font-size: 62.5%;
-    overflow-x: hidden;
-    scroll-padding-top: 7rem;
-    scroll-behavior: smooth;
-}
-
-section{
-    padding:2rem 9%;
-}
-
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    top:0; left:0; right:0;
-    padding:3rem 9%;
-    z-index: 1000;
-    background: #fff;
-}
-
-.header .logo{
-    font-size: 2.5rem;
-    color:var(--black);
-    font-weight: bold;
-}
-
-.header .logo span{
-    color:var(--yellow);
-}
-
-.header .navbar a{
-    margin:0 1rem;
-    font-size: 1.7rem;
-    color:var(--black);
-}
-
-.header .navbar a:hover{
-    color:var(--yellow);
-}
-
-
-
 .page{
     max-width: 1400px;
     margin: 0 auto;
@@ -524,191 +460,6 @@ section{
 }
 .text p{
     font-size: 15px;
-}
-
-
-.newsletter{
-    padding:6rem 2rem;
-    background: url(../image/letter-bg.png) no-repeat;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-}
-
-.newsletter h3{
-    font-size: 3rem;
-    color:var(--black);
-}
-
-.newsletter p{
-    font-size: 1.5rem;
-    color:var(--light-color);
-    padding:1rem 0;
-}
-
-.newsletter form{
-    max-width: 60rem;
-    height:5rem;
-    background:#fff;
-    border-radius: 5rem;
-    overflow:hidden;
-    display: flex;
-    margin:1rem auto;
-    box-shadow: var(--box-shadow);
-}
-
-.newsletter form input[type="email"]{
-    height: 100%;
-    width:100%;
-    padding:0 2rem;
-    font-size: 1.6rem;
-    color:var(--black);
-    text-transform: none;
-}
-
-.newsletter form input[type="submit"]{
-    height: 100%;
-    width:17rem;
-    font-size: 1.7rem;
-    color:var(--black);
-    background: var(--light-yellow);
-    cursor: pointer;
-}
-
-.newsletter form input[type="submit"]:hover{
-    background: var(--yellow);
-}
-
-.reviews .review-slider{
-    padding-bottom: 3rem;
-}
-
-.reviews .review-slider .box{
-    text-align: center;
-    padding:2rem;
-    margin: 2rem 0;
-    opacity: .4;
-    transform: scale(.9);
-}
-
-.reviews .review-slider .swiper-slide-active{
-    opacity: 1;
-    transform: scale(1);
-    box-shadow: var(--box-shadow);
-    border:var(--border);
-    border-radius: .5rem;
-}
-
-.reviews .review-slider .box img{
-    height:7rem;
-    width:7rem;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.reviews .review-slider .box .content p{
-    color:var(--light-color);
-    font-size: 1.4rem;
-    padding:1rem 0;
-}
-
-.reviews .review-slider .box .content h3{
-    color:var(--black);
-    font-size: 2.2rem;
-    padding-bottom: .5rem;
-}
-
-.reviews .review-slider .box .content .stars i{
-    color:var(--yellow);
-    font-size: 1.7rem;
-}
-
-.contact .row{
-    display: flex;
-    flex-wrap: wrap;
-    gap:1.5rem;
-}
-
-.contact .row .map{
-    flex:1 1 42rem;
-    width: 100%;
-    padding:2rem;
-    box-shadow: var(--box-shadow);
-    border:var(--border);
-    border-radius: .5rem;
-}
-
-.contact .row form{
-    padding:2rem;
-    flex:1 1 42rem;
-    box-shadow: var(--box-shadow);
-    border:var(--border);
-    text-align: center;
-    border-radius: .5rem;
-}
-
-.contact .row form h3{
-    font-size: 3rem;
-    color:var(--black);
-    padding-bottom: 1rem;
-}
-
-.contact .row form .box{
-    width:100%;
-    border-radius: .5rem;
-    padding:1rem 1.2rem;
-    font-size: 1.6rem;
-    text-transform: none;
-    border:var(--border);
-    margin:.7rem 0;
-}
-
-.contact .row form textarea{
-    height:15rem;
-    resize: none;
-}
-
-.footer{
-    background: var(--light-yellow);
-    padding-bottom: 8rem;
-}
-
-.footer .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap:1.5rem;
-}
-
-.footer .box-container .box h3{
-    font-size: 2.2rem;
-    padding:1rem 0;
-    color:var(--black);
-}
-
-.footer .box-container .box a{
-    display: block;
-    font-size: 1.4rem;
-    padding:1rem 0;
-    color:var(--light-color);
-}
-
-.footer .box-container .box a i{
-    padding-right: .5rem;
-    color:var(--black);
-}
-
-.footer .box-container .box a:hover i{
-    padding-right: 2rem;
-}
-
-.footer .credit{
-    text-align: center;
-    padding:1.5rem;
-    padding-top: 2.5rem;
-    margin-top: 2rem;
-    border-top: var(--border);
-    font-size: 2rem;
-    color:var(--black);
 }
 
 </style>
